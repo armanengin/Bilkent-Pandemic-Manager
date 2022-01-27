@@ -41,3 +41,4 @@
 > Sharing Latest News about Covid-19 Protocols, Reports, Numbers etc.
 
 # Use Case Diagram
+![son resim](https://user-images.githubusercontent.com/63503839/151438787-87930d0e-8823-406d-b3eb-a122d66621a2.jpg)
