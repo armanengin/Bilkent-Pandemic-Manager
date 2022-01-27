@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+.center h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+.center p{
+    text-align: center;
+    color: #FFFFFF;
+}
+form .username_txt{
+    position: relative;
+    border: #FFFFFF;
+    margin: 5px 0;
+    border-color: #FFFFFF;
+}
+form .password_txt{
+    position: relative;
+    margin: 5px 0;
+    border-color: #FFFFFF;
+}
+input[type="Username"]{
+    color: #FFFFFF;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #0016FF;
+    border-color: #FFFFFF;
+}
+input[type="Username"]::placeholder{
+    color: #FFFFFF;
+}
+input[type="Password"]{
+    color: #FFFFFF;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #0016FF;
+    border-color: #FFFFFF;
+}
+input[type="Password"]::placeholder{
+    color: #FFFFFF;
+}
+.pass{
+    position: relative;
+    color:#FFFFFF;
+}
+
+input[type="button"]{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #0016FF;
+    border-color: #00FF29;
+}
+input[type="button"]{
+    color: #00FF29;
+}

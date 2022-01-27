@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/findUser.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Bilkent Pandemic Manager</title>
+  </head>
+  <body>
+    <div class="container-fluid"style="margin: 0; padding: 0;">
+        <div class="row">
+            <div class="col-md-2" id="navbar">
+                <script>
+                    $(function(){
+                    $("#navbar").load("navbarAdmin.html");
+                    });
+                </script>
+            </div>
+            <div class="col-md-10">
+                <div class="row mt-5">
+                    <div>
+                      <h1 style="color:aqua">Find User</h1>
+                    </div>
+                  </div>
+
+                  <div class="row mt-5"style="text-align: center;">
+                    <div class="card me-2" style="margin: auto;">
+                        <div class="card-header">
+                            <h2 class="my-0 font-weight-bold">Find User</h2>
+                        </div>
+                        <form action="#" id="form" method="post"> 
+                          <div class="input-group mb-3">
+                            <input  type="text" class="form-control" placeholder="Find a User" aria-label="Recipient's username" aria-describedby="basic-addon2" >
+                            <div class="input-group-append" >
+                              <button class="btn btn-outline-secondary" type="button">Search</button>
+                            </div>
+                          </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

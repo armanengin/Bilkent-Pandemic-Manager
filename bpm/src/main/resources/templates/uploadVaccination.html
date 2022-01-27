@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/uploadVaccination.css">
+    <script src="uploadVaccination.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Bilkent Pandemic Manager</title>
+  </head>
+  <body>
+      <div class="container-fluid"style="margin: 0; padding: 0;">
+          <div class="row">
+              <div class="col-md-2" id="navbar">
+                <script>
+                    $(function(){
+                    $("#navbar").load("navbar.html");
+                    });
+                </script>
+            </div>
+            <!-- Side Bar bitişi -->
+
+            <div class="col-md-9">
+                <div class="row mt-5">
+                    <div>
+                      <h1 style="color:aqua">Upload Vaccination Card</h1>
+                    </div>
+                  </div>
+
+                  <div class="row mt-5"style="text-align: center;">
+
+                    <div class="card col-md-3 me-2" style="margin: auto;">
+                        <div class="card-header">
+                          <h4 class="my-0 font-weight-bold">Add Vaccination in Turkey</h4>
+                        </div>
+                        <div class="card-body">
+                         <form action="" method="post">
+                             <div>
+                                <input type="file" id="vac-card-tr" name="vac_card_tr">
+                             </div>
+                            <div class="mt-4">
+                                <label for="vac-card-tr-submit" class="btn btn-primary">Confirm</label>
+                                <input type="submit" id="vac-card-tr-submit" name="vac_card_tr-submit" style="display:none">
+                            </div>
+                            
+                         </form>
+                        </div>
+                      </div>
+
+                      <div class="card col-md-3" style="margin: auto;">
+                        <div class="card-header">
+                          <h4 class="my-0 font-weight-bold">Add Vaccination Abroad</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="list-unstyled mt-2 mb-3">
+                            <li>
+                              <div class="my-auto mb-3">
+                                  <!-- Form action get olursa düzeliyor post olması icin backend lazim -->
+                                <form action="" method="post"> 
+                                    <div>
+                                        <label for="vaclist"><b>Choose your vaccination type</b></label>
+                                        <input list="vaccines" name="vac_type" id="vac-list" autocomplete="on">
+                                        <datalist id="vaccines">
+                                          <option value="Biontech">
+                                          <option value="Turkovac">
+                                          <option value="Moderna">
+                                          <option value="Sinovac">
+                                          <option value="AstraZeneca">
+                                        </datalist>
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="vaclist"><b>In which country you are vaccinated</b></label>
+                                        <input type="text" name="vac_city" id="vac-list-city">
+
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="vac-date"><b>Vaccination Date</b></label>
+                                        <input type="date" id="vac-date" name="vac_date"
+                                            min="2020-01-01" max="2023-12-31">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="vac-card-abroad"> <b>Vaccination Document</b></label>
+                                        <input type="file" id="vac-card-abroad" name="vac_card_abroad">
+                                     </div>
+                                    <div class="mt-4">
+                                        <label for="vac-card-abroad-submit" class="btn btn-primary">Confirm</label>
+                                        <input type="submit" id="vac-card-abroad-submit" name="vac_card_abroad_submit" style="display:none">
+                                    </div>
+                                </form>
+                            </div>
+                          </li>
+                            <li>
+                              <div>
+                                
+                              </div>
+                            </li>
+                            <li>
+                              
+                          </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          
+      </div>
+  </body>
+
+        
+          
+
+</html>

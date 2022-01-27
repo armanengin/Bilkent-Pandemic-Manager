@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+
+}
+.personal_data{
+    position: absolute;
+    right: 200px;
+}
+button[id="notification"]{
+    border-style: none;
+}
+.navbar{
+    background-color: #363740;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    height: 100%;
+    
+}
+button[id="covid-19-filesButton"],[id="coursesButton"], [id="riskCalculatorButton"], [id="covid19ReportButton"], [id="newsButton"] , [id="send_feedback"]{
+    background-color: #363740;
+    border-color: #363740;
+    border-style: none;
+    text-emphasis: none;
+}
+
+

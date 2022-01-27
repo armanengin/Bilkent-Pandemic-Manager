@@ -1,0 +1,29 @@
+body{
+        position: absolute;
+}
+.navbar{
+        background-color: #b9a8b8;
+}
+.Logo{
+        position: absolute;
+        color: black;
+        top: 0%;
+}
+.primary-nav{
+        border-bottom: 2px solid black;
+
+}
+.secondary-nav{
+        margin-top: 20%;
+}
+.button[id=""],[id="covid19FilesButton"],[id="riskCalculatorButton"],[id="covid19ReportButton"],[id="newsButton"], [id="sendFeedbackButton"], [id="logOutButton"], [id="coursesButton"]{
+        
+        background-color: #b9a8b8;
+        color: black;
+        border-color: #363740;
+        border-style: none;
+        text-emphasis: none;
+}
+.button[id="sendFeedbackButton"],[id="logOutButton"]{
+        margin: 20%;
+}

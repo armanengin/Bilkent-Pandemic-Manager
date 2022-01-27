@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/diagnosis.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Bilkent Pandemic Manager</title>
+  </head>
+  <body>
+    <div class="container-fluid"style="margin: 0; padding: 0;">
+        <div class="row">
+            <div class="col-md-2" id="navbar">
+                <script>
+                    $(function(){
+                    $("#navbar").load("navbar.html");
+                    });
+                </script>
+            </div>
+            <div class="col-md-10">
+              <div class="row mt-5">
+                <div>
+                  <h1 style="color:aqua">Covid-19 Reports</h1>
+                </div>
+              </div>  
+              <div class="row mt-5"style="text-align: center;">
+                <div class="card me-2" style="margin: auto;">
+                    <div class="card-header">
+                        <h2 class="my-0 font-weight-bold">Covid-19 Reports</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mt-2">
+                          <div class="col-md-3">
+                            <h4>Daily Cases</h4>
+                            <div>
+                              <b>123</b>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <h4>Daily Death Number</h4>
+                            <div>
+                                  <b>567</b>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <h4>Number of Tests</h4>
+                            <div>
+                              <b>789</b>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Number of Recoveries</h4>
+                            <div>
+                                <b>999</b>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>            
+            </div>
+            <div class="row mt-5"style="text-align: center;">
+              <div class="card me-2"style="margin: auto;">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <a href="covidbilkent.html" class="btn btn-primary"><b>Overall Corona Report in Bilkent</b></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="coviddorm.html" class="btn btn-primary"><b>Dormitory Corona Report in Bilkent</b></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="covidlecture.html" class="btn btn-primary"><b>Lecture Corona Report in Bilkent</b></a>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+              
+            </div>
+            </div>
+    </div>
+    </div>
+  </body>
+</html>

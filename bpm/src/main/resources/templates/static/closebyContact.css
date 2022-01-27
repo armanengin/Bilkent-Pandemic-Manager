@@ -1,0 +1,13 @@
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    position: relative;
+    width: 200px;
+    top: 0%;
+    height: 700px ;
+}

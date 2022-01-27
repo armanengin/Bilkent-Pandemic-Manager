@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+
+}
+.navbar{
+    position: relative;
+    width: 200px;
+    top: 0%;
+    height: 700px ;
+}
