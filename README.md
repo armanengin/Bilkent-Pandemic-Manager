@@ -40,4 +40,4 @@
 ### Covid-19 News
 > Sharing Latest News about Covid-19 Protocols, Reports, Numbers etc.
 
-
+# Use Case Diagram
